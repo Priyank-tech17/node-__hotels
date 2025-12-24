@@ -22,6 +22,14 @@ const personroutes = require("./routes/personRoutes");
 app.use("/person", personroutes);
 
 
+//import the menuroutes file
+
+//import the personroutes file
+
+const menuroutes = require("./routes/menuRoutes");
+//use routes
+app.use("/menu", menuroutes);
+
 
 app.listen(3000, () => {
     console.log("listening on port 3000");

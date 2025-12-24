@@ -2,6 +2,7 @@ const mongoose = require("mongoose")
 //
 const mongourl = "mongodb://localhost:27017/hotels"
 
+
 mongoose.connect(mongourl,{
   
 })
